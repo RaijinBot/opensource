@@ -52,7 +52,7 @@ if (!Cookies.get('uid')) {
 
 const client = new ApolloClient({
   cache: new InMemoryCache(),
-  uri: 'https://api.unfollow.ninja',
+  uri: 'https://api.raijinbot.com',
   headers: {
     uid: Cookies.get('uid'),
   }
